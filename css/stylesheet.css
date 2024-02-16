@@ -1,0 +1,128 @@
+﻿.mainHeader {
+    font-family: Athelas; /* Font family Athelas */
+    font-size: 42px; /* Font size 15 pixels */
+}
+
+.secHeader {
+    background-color: rgba(138, 140, 143, 0.3); /* background color cool down */
+    font-family: Athelas;
+    font-size: 42px;
+    
+}
+
+.textStyle {
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-bottom: 1em;
+}
+
+p {
+    text-align: center;
+    font-size: 24px; 
+    margin: 0 auto;
+    max-width: 600px;
+    margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    p {
+        text-align: left;
+    }
+}
+
+body {
+    background-color: rgb(213, 162, 141); /* background color lucky */
+    font-family: Athelas; /* Font famil athelas */
+}
+
+ul {
+    list-style-type: none; /* Get rid of bullets in list */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline; /* Make list horizontal */
+}
+
+li a {
+    color: #fff; /* white font color */
+    padding: 10px; /* padding around text */
+    background-color: rgb(190, 30, 45); /* Fire starter background color on buttons */
+    font-size: 1.25rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.mainImages {
+    margin: 20px auto; /* 20px margin above and below the image, centered */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    text-align: center;
+}
+
+.navButton {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff; /* text color */
+    background-color: rgb(190, 30, 45); /* button color */
+    border: 1px solid #c00; /* border color */
+    border-radius: 5px; /* rounded corners */
+    transition: background-color 0.3s ease; /* smooth transition on hover */
+}
+
+.navButton:hover {
+    background-color: #c00; /* change color on hover */
+}
+
+#logo { 
+    height: auto; 
+    transition: transform 0.3s ease;
+}
+
+#logo:hover {
+    transform: translateX(5px);
+}
+
+@media only screen and (min-width: 600px) {
+    /* Create two equal columns that floats next to each other */
+    .row {
+        display: flex;
+    }
+
+    .column {
+        flex: 50%;
+        padding: 5px;
+    }
+
+    .leftColumn {
+        text-align: right;
+    }
+
+    .rightColumn {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mobileImage {
+        min-width: 100%;
+    }
+    .nav {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .menu {
+        padding: 0 10% 0 10%;
+    }
+}
+
+.menu li {
+    padding: 1em 0 1em 0;
+    font-size: 24px; 
+}
